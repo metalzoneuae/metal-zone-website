@@ -1521,8 +1521,8 @@ ul.dropdown-menu li {
 }
 
 .iso-cert {
-  height: 6rem;
-  width: 6rem;
+  height: 5em;
+  width: 5em;
   background-color: #fff;
   border-radius: 50%;
   padding: 0.15rem;
