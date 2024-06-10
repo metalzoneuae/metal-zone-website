@@ -1521,11 +1521,11 @@ ul.dropdown-menu li {
 }
 
 .iso-cert {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   background-color: #fff;
   border-radius: 50%;
-  padding: 0.15rem;
+  padding: 0.1rem;
 }
 
 .team-pic {
