@@ -1528,6 +1528,12 @@ ul.dropdown-menu li {
   padding: 0.15rem;
 }
 
+.team-pic {
+  width: 420px;
+  height: 370px;
+  object-fit: cover;
+}
+
 .lh-35 {
   line-height: 35px;
 }
