@@ -588,7 +588,6 @@ ul.dropdown-menu li {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("../images/bg/main-banner1.jpg") no-repeat 80% 50%;
   margin-top: 6rem;
   background-size: cover;
   min-height: 800px;
@@ -602,6 +601,28 @@ ul.dropdown-menu li {
   font-weight: 400;
   letter-spacing: -1.2px;
   text-transform: capitalize;
+}
+
+.banner-video {
+  position: absolute;
+  overflow: hidden;
+  background: #fff;
+  margin-top: 6rem;
+  background-size: cover;
+  /* Center Aligned
+  ============================================= */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 800px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-video {
+    min-height: 500px;
+    margin-left: -500px
+  }
+  
 }
 
 .letter-spacing {
