@@ -25,7 +25,7 @@ function calculate() {
         totalLength *
         density *
         numPipes) /
-      1000;
+      10;
 
     document.getElementById("a6").value = weight.toFixed(2);
   }
